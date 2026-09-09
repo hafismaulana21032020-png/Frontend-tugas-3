@@ -1,15 +1,17 @@
 /*
  * cmlabs.co design tokens — installed via `npx cmlabs-ui add theme`.
- * Requires Tailwind CSS v4 (this assumes `@import "tailwindcss";` already
- * exists at the top of your own globals.css — this file doesn't repeat it).
+ * Requires Tailwind CSS v4.
  *
  * Usage: import this file from your globals.css, e.g.
+ *   @import "tailwindcss";
  *   @import "./cmlabs-theme.css";
  *
  * --font-satoshi is not defined here — set it up yourself, e.g. via
  * `next/font/local` (see the snippet printed after `add fonts`) or a plain
  * @font-face pointing at the files copied into public/fonts/satoshi.
  */
+@import "tailwindcss";
+
 :root {
   --background: #ffffff;
   --surface: #f8f9fa;
